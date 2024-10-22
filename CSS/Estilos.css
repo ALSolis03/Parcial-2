@@ -1,15 +1,15 @@
-/* Estilos Generales */
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff; /* Gris claro */
-    background-color: #0b0c10; /* Fondo negro oscuro */
+    color: #ffffff; 
+    background-color: #0b0c10; 
     margin: 0;
     padding: 0;
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #66fcf1; /* Azul vibrante */
+    color: #66fcf1;
     font-size: 36px;
     margin: 15px;
     padding: 10px;
@@ -17,34 +17,34 @@ h1 {
 
 h2 {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #c5c6c7; /* Gris claro */
+    color: #c5c6c7;
     text-align: center;
     margin-top: 20px;
 }
 
-/* Centrado de la imagen*/
+/*Centrar la imagen*/
 .centrar {
     text-align: center;
 }
 
-/* Justificar texto */
+/*Justificar el texto del contenido*/
 .justificar {
     text-align: justify;
     margin: 20px auto;
     width: 80%;
 }
 
-/* Header */
+/*header*/
 .header {
-    background-color: #1f2833; /* Fondo azul oscuro */
+    background-color: #1f2833;
     padding: 20px 0;
     margin: auto;
     width: 100%
 }
 
-/* Navbar */
+/*Navbar*/
 .navbar {
-    background-color: #45a29e; /* Azul grisáceo */
+    background-color: #45a29e;
     padding: 10px 0;
     text-align: center;
     width: 100%;
@@ -75,14 +75,14 @@ h2 {
 
 .navbar a:hover {
     background-color: #f73385;
-    border-radius: 5px; /* Rosado vibrante */
+    border-radius: 5px;
 }
 
-/* Contenido principal */
+/*Contenido principal*/
 .contenido {
     margin: 20px auto;
     width: 80%;
-    background-color: #1f2833; /* Fondo gris oscuro */
+    background-color: #1f2833;
     border-radius: 8px;
     padding: 20px;
 }
@@ -92,11 +92,11 @@ p{
 
 img {
     max-width: 60%;
-    border: 5px solid #2b6461; /* Borde azul grisáceo */
+    border: 5px solid #2b6461;
     border-radius: 5px;
 }
 
-/* Listas dentro del contenido */
+/*Listas dentro del contenido*/
 .cont{
     border-radius: 2%;
 }
@@ -109,7 +109,7 @@ ul {
 }
 
 li {
-    color: #ffffff; /* Azul vibrante */
+    color: #ffffff;
     margin-bottom: 10px;
     font-size: 18px;
     text-align: left;
@@ -133,10 +133,10 @@ h3{
     text-decoration: underline;
 }
 
-/* Footer */
+/*Footer*/
 .footer {
-    background-color: #1f2833; /* Fondo azul oscuro */
-    color: #c5c6c7; /* Gris claro */
+    background-color: #1f2833;
+    color: #c5c6c7;
     text-align: center;
     padding: 20px 0;
     font-size: 14px;
@@ -148,31 +148,19 @@ h3{
 }
 
 .footer-contenido a {
-    color: #66fcf1; /* Enlaces en azul cian */
+    color: #66fcf1;
     text-decoration: none;
 }
 
 .footer-contenido a:hover {
-    color: #f73385; /* Cambia a rosado vibrante */
+    color: #f73385;
 }
 
-/* Tablas */
+/*Tablas*/
 table {
     width: 100%;
     margin: 20px auto;
     border-collapse: collapse;
-    background-color: #1f2833; /* Fondo gris oscuro */
+    background-color: #1f2833;
     color: white;
-}
-
-/* Adaptabilidad para pantallas pequeñas */
-@media (max-width: 768px) {
-    .contenido, .justificar {
-        width: 95%;
-    }
-
-    .navbar ul li {
-        display: block;
-        margin: 10px 0;
-    }
 }
